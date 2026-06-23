@@ -1,0 +1,63 @@
+# Root .gitignore for portfoliofullstack
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+*.pdb
+*.sqlite3
+*.db
+*.sqlite
+*.log
+env/
+venv/
+.venv/
+ENV/
+.Python
+
+# Node / frontend artifacts
+node_modules/
+dist/
+build/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Keep package lockfiles for reproducible installs
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+secrets.*
+*.pem
+
+# IDE / editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.swp
+*.bak
+*.tmp
